@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tic-tac-toe</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <body>
+        <div class="container">
+             <div id="playerX">
+                  <h3>Player X</h3>
+                  <h2 id="playerXScore">2</h2>
+            </div> 
+            
+            <div class="game-container">
+                 <h1>TIC-TAC-TOE</h1>
+                 <div id="game-board">
+                     <div class="cell" onclick="makeMove(this)"></div>
+                     <div class="cell" onclick="makeMove(this)"></div>
+                     <div class="cell" onclick="makeMove(this)"></div>
+                     <div class="cell" onclick="makeMove(this)"></div>
+                     <div class="cell" onclick="makeMove(this)"></div>
+                     <div class="cell" onclick="makeMove(this)"></div>
+                     <div class="cell" onclick="makeMove(this)"></div>
+                     <div class="cell" onclick="makeMove(this)"></div>
+                     <div class="cell" onclick="makeMove(this)"></div>
+                </div>
+            
+                 <p id="message"></p>
+                 <button onclick="resetBoard()" id="restartBtn">Restart</button>
+             </div>
+    
+             <div id="playerO">
+                 <h3>Player O</h3>
+                 <h2 id="playerOScore">1</h2>
+             </div>
+         </div>
+    <script src="tic.js"></script>
+    
+    </body>
+</body>
+</html>
